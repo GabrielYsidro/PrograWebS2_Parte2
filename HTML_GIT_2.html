@@ -5,7 +5,7 @@
     <title>Perfil del Alumno A</title>
 </head>
 <body>
-    <h1>Hola, soy el Alumno A</h1>
+    <h1 id="alumnoA">Hola, soy el Alumno A</h1>
     <h2>Estudiante de Programación Web</h2>
 
     <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" width="60">
@@ -53,5 +53,53 @@
     </form>
 
     <p>Alumno A - 2025</p>
+
+
+    
+    <h1>¡Hola! Soy el Alumno C</h1>
+    <h2>Explorando el mundo de la programación</h2>
+
+    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Icono Alumno" width="60">
+
+    <p>Gracias por visitar mi perfil. Por favor, completa el siguiente formulario para compartir un poco sobre ti.</p>
+
+    <form>
+        <label for="nombre">Tu nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="ciudad">Ciudad donde vives:</label><br>
+        <input type="text" id="ciudad" name="ciudad"><br><br>
+
+        <p>¿Conocías HTML antes de este curso?</p>
+        <input type="radio" id="html-si" name="html" value="si">
+        <label for="html-si">Sí</label><br>
+        <input type="radio" id="html-no" name="html" value="no">
+        <label for="html-no">No</label><br><br>
+
+        <p>¿Qué áreas te interesan más?</p>
+        <input type="checkbox" id="diseno" name="intereses" value="diseno">
+        <label for="diseno">Diseño Web</label><br>
+        <input type="checkbox" id="frontend" name="intereses" value="frontend">
+        <label for="frontend">Front-End</label><br>
+        <input type="checkbox" id="backend" name="intereses" value="backend">
+        <label for="backend">Back-End</label><br><br>
+
+        <label for="comentario">Cuéntame algo sobre ti:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea><br><br>
+
+        <label for="frecuencia">¿Con qué frecuencia practicas lo aprendido?</label><br>
+        <select id="frecuencia" name="frecuencia">
+            <option value="todos">Todos los días</option>
+            <option value="algunos">Algunos días</option>
+            <option value="poco">Casi nunca</option>
+        </select><br><br>
+
+        <button type="submit" onclick="location.href='#alumnoA'">Enviar y ver perfil del Alumno A</button>
+    </form>
+
+    <p>Alumno C - 2025</p>
 </body>
 </html>
